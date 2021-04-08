@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Stylish-Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form class="stylish-form">
+      <h1>Say Hello!</h1>
+      <label class="name">
+        <p>Your Name</p>
+        <input
+          required
+          type="text"
+          name="username"
+          placeholder="Enter your Name"
+        />
+      </label>
+      <label class="e-mail">
+        <p>E-Mail</p>
+        <input
+          required
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+          type="e-mail"
+          name="E-mail"
+          placeholder="Enter your E-mail Address"
+        />
+      </label>
+      <label class="services">
+        <p>Needed Services</p>
+        <select name="services" required>
+          <option value disabled selected hidden>Choose Services</option>
+          <option value="1">Service 1</option>
+          <option value="2">Service 2</option>
+          <option value="3">Service 3</option>
+          <option value="4">Service 4</option>
+          <option value="5">Service 5</option>
+        </select>
+      </label>
+
+      <label class="budget">
+        <p>Budget</p>
+        <select name="budget" required>
+          <option value disabled selected hidden>Select Budget</option>
+          <option value="1">Budget 1</option>
+          <option value="2">Budget 2</option>
+          <option value="3">Budget 3</option>
+          <option value="4">Budget 4</option>
+          <option value="5">Budget 5</option>
+        </select>
+      </label>
+
+      <label class="message">
+        <p>Message</p>
+        <textarea
+          placeholder="Your message here..."
+          name="message"
+          cols="25"
+          rows="5"
+          minlength="10"
+          required
+        ></textarea>
+
+        <div class="submit">
+          <button type="submit" href="Page/page.html">Submit</button>
+          <img src="images/svg/right.svg" alt="" height="8px" width="8px" />
+        </div>
+      </label>
+      <!-- <div class="submit">
+        <a href="Page/page.html">Submit</a>
+        <img src="images/svg/right.svg" alt="" height="8px" width="8px" />
+      </div> -->
+    </form>
+  </body>
+</html>

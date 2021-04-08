@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(rgb(172, 172, 230), rgb(161, 103, 103));
+}
+
+.stylish-form {
+  border: solid 2px black;
+  /* text-align: center; */
+  padding: 30px;
+  background-color: white;
+  border-radius: 2%;
+  box-shadow: 2px 1px 6px 1px black;
+}
+
+.stylish-form h1 {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.stylish-form label p {
+  font-family: sans-serif;
+  font-size: 11px;
+}
+
+.stylish-form label input {
+  margin-bottom: 15px;
+  margin-top: 7px;
+  border: none;
+  border-bottom: solid 1px rgb(177, 175, 175);
+  width: 220px;
+}
+
+.stylish-form label select {
+  margin-bottom: 15px;
+  margin-top: 7px;
+  border: none;
+  border-bottom: solid 1px rgb(177, 175, 175);
+  width: 220px;
+}
+
+.stylish-form label textarea {
+  margin-bottom: 15px;
+  margin-top: 7px;
+  border: none;
+  border-bottom: solid 1px rgb(177, 175, 175);
+  width: 220px;
+}
+
+.name input {
+  background-color: rgb(219, 219, 219);
+  border-radius: 5%;
+  transition: 0.2s;
+}
+
+.name input:focus {
+  background-color: rgb(212, 184, 184);
+  border-radius: 5%;
+  box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
+  transform: scale(1.1);
+}
+
+.e-mail input {
+  background-color: rgb(219, 219, 219);
+  border-radius: 5%;
+  transition: 0.2s;
+}
+
+.e-mail input:focus {
+  background-color: rgb(212, 184, 184);
+  border-radius: 5%;
+  box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
+  transform: scale(1.1);
+}
+
+.services select {
+  width: 100%;
+  min-width: 15ch;
+  max-width: 30ch;
+  background-color: rgb(219, 219, 219);
+  border-radius: 0.25em;
+  padding: 0.25em 0.5em;
+  cursor: pointer;
+  line-height: 1.1;
+  transition: 0.2s;
+}
+
+.services select:focus {
+  background-color: rgb(212, 184, 184);
+  border-radius: 5%;
+  box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
+  transform: scale(1.1);
+}
+
+.budget select {
+  width: 100%;
+  min-width: 15ch;
+  max-width: 30ch;
+  background-color: rgb(219, 219, 219);
+  border-radius: 0.25em;
+  padding: 0.25em 0.5em;
+  cursor: pointer;
+  line-height: 1.1;
+  transition: 0.2s;
+}
+
+.budget select:focus {
+  background-color: rgb(212, 184, 184);
+  border-radius: 5%;
+  box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
+  transform: scale(1.1);
+}
+
+.message textarea {
+  background-color: rgb(219, 219, 219);
+  border-radius: 5%;
+  transition: 0.2s;
+}
+
+.message textarea:focus {
+  background-color: rgb(212, 184, 184);
+  border-radius: 5%;
+  box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
+  transform: scale(1.1);
+}
+
+.submit {
+  text-align: center;
+  /* border: solid 2px black; */
+  padding: 7px;
+  background: linear-gradient(rgb(156, 156, 221), rgb(182, 236, 182));
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 2px 2px 2px 2px rgb(156, 156, 221);
+  font-family: sans-serif;
+  font-size: 12px;
+  transition: 0.2s;
+}
+
+.submit button {
+  text-decoration: none;
+  color: white;
+  border: none;
+  background: none;
+}
+
+.submit:hover {
+  transform: scale(1.1);
+  background: linear-gradient(rgb(83, 83, 214), grey);
+}
+
+.submit:active {
+  transform: scale(1.05);
+  background: linear-gradient(rgb(153, 153, 231), rgb(207, 144, 144));
+}
